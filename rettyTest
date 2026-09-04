@@ -6,24 +6,6 @@
   <script src="https://staging-d.ea-shutto-translation.net/retty.js"></script>
   <!--<script src="https://d.shutto-translation.com/retty.js"></script>-->
 
-  <!-- ① Google アナリティクス (GA4) 基本タグ -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCD884NXR9"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'G-ZCD884NXR9');
-  </script>
-  
-  <!-- ② shutto翻訳 GA4連携タグ -->
-  <script>
-    __stt.on('setLangHit', function(event) {
-      gtag('event','shuttotrans_set_lang', {
-        'shuttotrans_lang': event.lang
-      });
-    });
-  </script>
 </head>
 <body>
   <h1>shutto翻訳 動作確認テスト（GitHub Pages）</h1>
