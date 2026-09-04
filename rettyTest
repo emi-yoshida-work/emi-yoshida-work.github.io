@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Retty_shutto翻訳 動作確認テストサイト</title>
-  <script src="https://d.shutto-translation.com/retty.js"></script>
+  <script src="https://staging-d.ea-shutto-translation.net/retty.js"></script>
+  <!--<script src="https://d.shutto-translation.com/retty.js"></script>-->
 
   <!-- ① Google アナリティクス (GA4) 基本タグ -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCD884NXR9"></script>
